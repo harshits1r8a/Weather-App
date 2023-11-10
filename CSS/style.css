@@ -143,18 +143,16 @@ body {
   z-index: -999;
 }
 
-.error-message{
-    text-align: center;
-    margin-bottom: 40px;
-    color: rgba(72, 71, 71, 0.605);
-    font-weight: 700;
-    font-size: 20px;
-    display: none;
+.error-message {
+  text-align: center;
+  margin-bottom: 40px;
+  color: rgba(72, 71, 71, 0.605);
+  font-weight: 700;
+  font-size: 20px;
+  display: none;
 }
 
 @media only screen and (max-width: 900px) {
-  
-
   #input {
     padding: 8px 18px;
     font-size: 15px;
@@ -172,25 +170,29 @@ body {
     font-weight: 500;
   }
 
-  .sub-data-box > img {
-    display: none;
-  }
+  /* .sub-data-box > img {
+    border: 1px solid green;
+  } */
 }
 
 @media only screen and (max-width: 570px) {
-    .app-box{
-        width: 80%;
-    }
-    #input::placeholder {
-        font-family: 'Quicksand', sans-serif;
-        font-weight: 600;
-        color: #787474c4;
-        font-size: 12px;
-      }
+  .app-box {
+    width: 80%;
+  }
 
-  #input {
+  #input{
+    font-family: 'Quicksand', sans-serif;
     padding: 0px 12px;
-    font-size: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #787474;
+  }
+
+  #input::placeholder {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    color: #787474c4;
+    font-size: 16px;
   }
 
   .fa-solid {
@@ -219,9 +221,7 @@ body {
     margin-right: 20px;
   }
 
-  .sub-data-box > img {
-    display: none;
-  }
+  
 
   .temp-value {
     font-size: 50px;
@@ -233,7 +233,9 @@ body {
     font-size: 15px;
   }
 
-  .img-box {
-    display: none;
+  
+
+  .img-box > img{
+    padding-top:0 ;
   }
 }
