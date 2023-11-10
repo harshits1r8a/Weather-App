@@ -47,6 +47,10 @@ body {
   border-radius: 50px;
   border: none;
   outline: none;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #787474;
 }
 
 #input::placeholder {
@@ -153,15 +157,15 @@ body {
   margin-top: -40px;
 }
 
-.error-message>img{
-    width: 150px;
+.error-message > img {
+  width: 150px;
 }
 
 @media only screen and (max-width: 900px) {
-    .app-box {
-        width: 60%;
-      }
-  #input{
+  .app-box {
+    width: 60%;
+  }
+  #input {
     font-family: 'Quicksand', sans-serif;
     padding: 0px 12px;
     font-size: 16px;
@@ -212,7 +216,7 @@ body {
     width: 80%;
   }
 
-  #input{
+  #input {
     font-family: 'Quicksand', sans-serif;
     padding: 0px 12px;
     font-size: 16px;
@@ -253,8 +257,6 @@ body {
     margin-right: 20px;
   }
 
-  
-
   .temp-value {
     font-size: 50px;
     font-weight: 400;
@@ -269,7 +271,7 @@ body {
     width: 28px;
   }
 
-  .img-box > img{
-    padding-top:0 ;
+  .img-box > img {
+    padding-top: 0;
   }
 }
