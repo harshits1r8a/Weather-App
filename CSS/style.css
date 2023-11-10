@@ -20,7 +20,7 @@ body {
 }
 
 .app-box {
-  width: 50%;
+  width: 40%;
   background: rgba(0, 0, 0, 0.1);
   box-shadow: 0 8px 32px 0 rgba(244, 244, 244, 0.37);
   backdrop-filter: blur(7px);
@@ -150,6 +150,11 @@ body {
   font-weight: 700;
   font-size: 20px;
   display: none;
+  margin-top: -40px;
+}
+
+.error-message>img{
+    width: 150px;
 }
 
 @media only screen and (max-width: 900px) {
