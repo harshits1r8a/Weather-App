@@ -178,10 +178,18 @@ body {
 }
 
 @media only screen and (max-width: 570px) {
-  
+    .app-box{
+        width: 80%;
+    }
+    #input::placeholder {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        color: #787474c4;
+        font-size: 12px;
+      }
 
   #input {
-    padding: 4px 12px;
+    padding: 0px 12px;
     font-size: 8px;
   }
 
