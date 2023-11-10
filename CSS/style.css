@@ -153,9 +153,22 @@ body {
 }
 
 @media only screen and (max-width: 900px) {
-  #input {
-    padding: 8px 18px;
-    font-size: 15px;
+    .app-box {
+        width: 60%;
+      }
+  #input{
+    font-family: 'Quicksand', sans-serif;
+    padding: 0px 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #787474;
+  }
+
+  #input::placeholder {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    color: #787474c4;
+    font-size: 16px;
   }
 
   .fa-solid {
@@ -170,9 +183,23 @@ body {
     font-weight: 500;
   }
 
-  /* .sub-data-box > img {
-    border: 1px solid green;
-  } */
+  .w-value {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .w-tag {
+    /* letter-spacing: 1px; */
+    font-size: 12px;
+  }
+
+  .sub-data-box:first-child {
+    margin-right: 25px;
+  }
+
+  .sub-data-box > img {
+    width: 40px;
+  }
 }
 
 @media only screen and (max-width: 570px) {
@@ -233,7 +260,9 @@ body {
     font-size: 15px;
   }
 
-  
+  .sub-data-box > img {
+    width: 28px;
+  }
 
   .img-box > img{
     padding-top:0 ;
